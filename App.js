@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { configStore, store } from './Extra/Redux/store';
 import { Provider } from 'react-redux';
 import { StackNavigation } from './Extra/Route/StackNavigation';
+import Home from './Extra/Container/Home';
 
 export default function App() {
 
@@ -11,9 +12,10 @@ export default function App() {
   return (
     <Provider store={storeA}>
 
-     <NavigationContainer>
+     {/* <NavigationContainer>
        <StackNavigation /> 
-     </NavigationContainer>   
+     </NavigationContainer>    */}
+     <Home />
 
     </Provider>
   )

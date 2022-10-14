@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#F4F6F7",
         margin: 18
     },
+    
     inputEmail: {
         borderRadius: 10,
         width: "100%",
